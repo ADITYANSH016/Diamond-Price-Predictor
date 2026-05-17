@@ -165,5 +165,5 @@ Categorical features (`cut`, `color`, `clarity`) are **ordinally encoded** using
 
 ---
 
-## 📄 License
-MIT
+
+
