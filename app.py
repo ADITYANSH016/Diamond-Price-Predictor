@@ -272,7 +272,7 @@ with tab3:
     st.dataframe(
         coef_df.style
             .format({"Coefficient (β)": "{:+.4f}"})
-            .applymap(
+            .map(
                 lambda v: "color:#6ee7b7" if isinstance(v, float) and v > 0
                           else ("color:#fca5a5" if isinstance(v, float) and v < 0 else ""),
                 subset=["Coefficient (β)"]
